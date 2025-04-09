@@ -1,0 +1,99 @@
+body{
+  background: url("https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color:white;
+  font-family: "Gabarito", sans-serif;
+  margin: 20px;
+}
+
+.logo {
+  text-align: end;
+}
+
+.logo img{
+  width:20%;
+}
+
+.conteudo-jogo {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px #ff1b7b;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.conteudo-jogo:hover {
+  background: rgba(0, 0, 0);
+  box-shadow: 0 0 5px #19caca;
+}
+
+.conteudo-jogo h2{
+  text-align: center;
+}
+
+input{
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  border: 1px solid white;
+  font-size: 16px;
+}
+
+button{
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  width: 220px;
+  background: #ff1b7b;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #19caca;
+}
+
+.container-Viloes {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px #ff1b7b;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.conteudo-vilao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nomeViloes {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nomeViloes p {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 20px;
+  background: white;
+  border: 1px solid white;
+  color: black;
+}
+
+.container-resultados {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 60px;
+  text-shadow: 0 0 8px #00ffff;
+}

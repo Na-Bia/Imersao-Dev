@@ -1,0 +1,102 @@
+/* Importa a fonte Raleway do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+
+/* Reset básico: tira margens, paddings e define fonte base */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  outline: none; /* remove o outine do input*/
+}
+
+/* Estilo da página principal */
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWN1cTFib3ZmYWxheGFtZHk3YzR5enVtajVpbW5idnV2MmV4M2YweiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3mZaGv4Krokd3GM0/giphy.gif");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Caixa principal do conteúdo */
+.container {
+  width: 270px;
+  min-height: 370px; /* aumentei para caber os novos elementos */
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(242, 246, 255, 0.85);
+  padding: 0 30px 30px 30px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Cabeçalho com o título "Conversor de Moedas" */
+.header {
+  width: 220px;
+  padding: 18px;
+  margin: -30px auto 25px auto;
+  background-color: rgba(242, 246, 255);
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+  color: #197be9;
+  font-size: 18px;
+}
+
+/* Subtítulos como "Escolha a moeda", "Cotação", etc */
+.subtitle {
+  padding: 10px 0;
+  font-size: 15px;
+  color: #197be9;
+}
+
+/* Parágrafo onde a cotação é exibida */
+.cotacaoInfo {
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #197be9;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #197be9;
+}
+
+/* Campos de input como a quantidade */
+.primaryInput {
+  padding: 12px;
+  border-radius: 10px;
+  border: 3px solid #197be9;
+  margin-bottom: 10px;
+}
+
+/* Estilo dos botões */
+button {
+  padding: 14px;
+  font-size: 15px;
+  background-color: #197be9;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Efeito de clique nos botões */
+button:active {
+  color: #197be9;
+  background-color: white;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Resultado da conversão */
+#resultado {
+  text-align: center;
+  color: #197be9;
+  font-size: 14px;
+  margin-top: 10px;
+}

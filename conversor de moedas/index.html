@@ -1,0 +1,41 @@
+<!-- 
+  Estrutura e estilo baseados no projeto "Conversor de Moedas 2" de Pedro Kaffe,
+  disponível no CodePen: https://codepen.io/pedrokafe/pen/OJWVLOg?editors=0110
+
+  Créditos ao autor pela base visual, especialmente:
+  - Layout geral e organização com flexbox
+  - Estilo dos botões, inputs e cores
+  - Fonte Raleway e uso do box-shadow
+
+  Modificações realizadas neste projeto:
+  - Inclusão da seleção de diferentes moedas (dólar, euro, won)
+  - Campo de cotação agora é preenchido automaticamente, e não mais pelo usuário
+  - Ajustes nos IDs e nomes dos campos para refletir as novas funcionalidades
+  - Comentários adicionados para facilitar meus estudos
+
+  Obrigada ao Pedro pela inspiração e base do projeto!
+-->
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <span> Conversor de Moedas </span>
+    </div>
+    <span class="subtitle">Escolha a moeda</span>
+    <div>
+      <button onclick="selecionarMoeda('USD')">Dólar</button>
+      <button onclick="selecionarMoeda('EUR')">Euro</button>
+      <button onclick="selecionarMoeda('KRW')">Won</button>
+    </div>
+
+    <span class="subtitle">Cotação</span>
+    <p id="valMoeda" class="cotacaoInfo">A cotação aparecerá aqui</p>
+    <span class="subtitle">Quantidade</span>
+    <input id="quantidadeMoeda" class="primaryInput" type="number" placeholder="Ex: 10,00" />
+
+    <button onclick="conversor()">Converter</button>
+
+    <p id="resultado">O resultado irá aparecer aqui</p>
+  </div>
+</body>
