@@ -20,6 +20,8 @@ Jogo clássico de "Pedra, Papel e Tesoura" com lógica de escolha aleatória do 
 ### 🔍 Chão de Vidro  
 Dois projetos semelhantes que exploram como diferentes laços de repetição (`for` e `while`) podem resolver o mesmo problema:
 
+🛠️ **VERSÃO FOR EM REFORMA**
+
 👀 [Ver no GitHub Pages - versão for](https://na-bia.github.io/Imersao-Dev/chao-de-vidro-for/)
 🧪 [Ver no CodePen - versão for](https://codepen.io/Anna-Beatriz-Souza-de-Jesus/pen/WbNPPwJ)
 
